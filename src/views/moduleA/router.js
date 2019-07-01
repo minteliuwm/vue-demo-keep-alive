@@ -13,10 +13,7 @@ export default [{
   }, {
     path: 'pagea',
     name: 'PageA',
-    component: PageA,
-    meta: {
-      keepAlive: true
-    }
+    component: PageA
   }, {
     path: 'pageb',
     name: 'PageB',
