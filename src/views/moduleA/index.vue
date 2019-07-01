@@ -1,9 +1,7 @@
 <template>
   <div>
-    <router-view include="['PageA']" />
-    <!-- <keep-alive>
-      <router-view v-if="$route.meta.keepAlive"></router-view>
+    <keep-alive :include="['PageA']" >
+      <router-view />
     </keep-alive>
-    <router-view v-if="!$route.meta.keepAlive"></router-view> -->
   </div>
 </template>
